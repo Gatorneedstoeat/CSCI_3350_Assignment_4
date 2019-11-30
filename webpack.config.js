@@ -20,7 +20,7 @@ module.exports = {
     publicPath: '/',
     // The name of the output bundle. Path is also relative
     // to the output path
-    filename: 'scripts/bundle.js'
+    filename: 'bootstrap_dist/bootstrap.js'
   },
   module: {
     // Array of rules that tells Webpack how the modules (output)
@@ -98,7 +98,7 @@ module.exports = {
     // indicating what the CSS outputted file name should be and
     // the location
     new MiniCssExtractPlugin({
-      filename: 'css/main.css'
+      filename: 'bootstrap_dist/bootstrap.css'
     })
   ]
 };
